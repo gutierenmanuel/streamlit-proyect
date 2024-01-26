@@ -6,7 +6,7 @@ import numpy as np
 
 
 # Cargar el modelo desde el archivo pickle
-with open('../models/best_naive_bayes.pk', 'rb') as file:
+with open('../models/best_naive_bayes_3_8.pk', 'rb') as file:
     modelo = pickle.load(file)
 
 
